@@ -1,0 +1,265 @@
+html {
+  font-family: Courier, monospace;
+  color: black;
+  padding: 0;
+  min-width: 800px;
+  height: 100%;
+  margin: 0;
+}
+
+/* --- FONT styling --- */
+h1 {
+  font-size: 200%;
+  margin: 0;
+  padding: 20px 0;
+}
+h2 {
+  font-weight: bold;
+  line-height: 0;
+  padding: 10px 0 0 0;
+  color: #104373;
+  font-size: 150%;
+}
+h4 {
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+h5 {
+  color: #b5e0d3;
+  font-size: 125%;
+}
+
+.white-text {
+  color: white;
+}
+
+#search-heading {
+  margin: 40px 0 25px 0;
+  color: #D3D3D3;
+}
+
+/* --- FOOTER styling --- */
+footer {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+
+#bottom-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/* --- HEADER styling --- */
+header {
+  margin: 0;
+  background-color: white;
+  min-width: 650px;
+  width: 100%;
+  text-align: center;
+}
+
+#nav {
+  list-style: none;
+  display: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#nav li {
+  vertical-align: bottom;
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin: 0px auto 20px auto;
+  font-size: 80%;
+}
+
+#nav a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: #b5e0d3;
+}
+
+a#current-page{
+  color: #104373;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* --- BODY styling --- */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+#home {
+  background: url("../images/amarok.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* --- DIV styling --- */
+div {
+  height: 100%;
+}
+
+#title-box {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+/* --- FORM styling --- */
+form {
+  border: none;
+  min-width: 325px;
+}
+
+/* --- FIELDSET styling --- */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* --- INPUT styling --- */
+input[type="radio"] {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: courier;
+    background-color: white;
+    border-style: solid;
+    font-size: 120%;
+    width: 200px;
+    text-align: center;
+}
+
+button[type="submit"]:hover {
+  color: #b5e0d3;
+  border-color: #b5e0d3;
+}
+
+
+
+.add-form {
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.form-box {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 0 0 0 0;
+  font-family: courier;
+  height: auto;
+}
+
+.app-note {
+  margin-left: 0;
+  margin-bottom: 5px;
+  list-style: none;
+  text-align: left;
+  font-size: 70%;
+}
+
+.main {
+  padding: 50px 35%;
+  overflow: auto;
+  /*-webkit-overflow-scrolling: touch;*/
+  -ms-overflow-style: none;
+}
+
+.search-main {
+  padding: 150px 25%;
+  overflow: auto;
+  /*-webkit-overflow-scrolling: touch;*/
+  -ms-overflow-style: none;
+}
+
+#add-data-form{
+  width: 100%;
+  margin-left: 0;
+}
+
+/* --- SELECT styling */
+select {
+  font-family: courier;
+  padding: 10px;
+  font-size: 80%;
+  text-align: left;
+
+}
+.select-form { width: 50%; }
+
+label {
+  font-weight: bold;
+}
+#form-background {
+  background-size: auto 100%;
+  background-repeat:no-repeat;
+  background-image: url("../images/water.jpg");
+  text-align: center;
+  overflow: hidden;
+}
+
+#canoe-page {
+  padding: 0 20%;
+}
+
+#search-bar {
+  height: 25px;
+}
+
+#search-button {
+  height: 35px;
+  margin-left: 10px;
+  padding: 0;
+  width: 100px;
+}
+
+#search-background {
+  background: url("../images/search.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+#title-box {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+#search-page{
+
+  background-size: auto;
+  background: url("../images/search.jpg") no-repeat center center fixed;
+  text-align: center;
+  overflow: hidden;
+  min-width: 400px;
+}
+
+.no-margin { margin: 0; padding: 0;}
+
+.center { text-align: center; }
