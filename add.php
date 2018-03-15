@@ -145,14 +145,14 @@ if (isset($_POST["submit_insert"])) {
           <li class="add-form">
             <h2>Weight:</h2>
             <li class="app-note">Weight in pounds.</li>
-            <input type="number" name="weight" required/>
+            <input class="in-line" type="number" name="weight" required/>
           </li>
 
           <!-- PLACE -->
           <li class="add-form">
             <h2>Placing:</h2>
             <li class="app-note">Placing at NY Upstate ASCE Regional Competition.</li>
-            <select class="select-form" name="placing" required>
+            <select class="select-form","in-line" name="placing" required>
               <option value="" selected disabled>Choose Place</option>
               <?php
               $places = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "did not place"];
@@ -174,7 +174,7 @@ if (isset($_POST["submit_insert"])) {
       </form>
     </div>
   </div>
-  <span class="image-credit2">fotos.websitesvoortherapeuten.com</span>
+  <span id="image-credit2">fotos.websitesvoortherapeuten.com</span>
 
   <?php include("includes/footer.php"); ?>
 </body>

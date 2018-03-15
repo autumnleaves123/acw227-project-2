@@ -15,7 +15,7 @@
       <div id="title-box">
         <h1 id="title"></h1>
       </div>
-      <span class="image-credit">Photo by Concrete Canoe</span>
+      <span id="image-credit">Photo by Concrete Canoe</span>
     <?php include("includes/footer.php"); ?>
   </body>
 </html>

@@ -127,7 +127,7 @@ if (isset($_GET['search']) and isset($_GET['category'])) {
       </div>
     </div>
   </div>
-  <span class="image-credit3">Photo by Chris Wolfrom</span>
+  <span id="image-credit3">Photo by Chris Wolfrom</span>
   <?php include("includes/footer.php"); ?>
 
   </body>

@@ -263,7 +263,7 @@ label {
   min-width: 400px;
 }
 
-.image-credit {
+#image-credit {
   font-size: 10px;
   color: black;
   text-align: center;
@@ -271,7 +271,7 @@ label {
   bottom: 55px;
 }
 
-.image-credit2 {
+#image-credit2 {
   font-size: 10px;
   color: black;
   text-align: center;
@@ -279,7 +279,7 @@ label {
   bottom: -200px;
 }
 
-.image-credit3 {
+#image-credit3 {
   font-size: 10px;
   color: white;
   text-align: center;
@@ -289,5 +289,5 @@ label {
 }
 
 .no-margin { margin: 0; padding: 0;}
-
+.in-line { display: inline-block; }
 .center { text-align: center; }
