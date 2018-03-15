@@ -192,7 +192,8 @@ button[type="submit"]:hover {
 
 .search-main {
   padding: 150px 25%;
-  overflow: auto;
+  height: auto;
+  overflow: hidden;
   /*-webkit-overflow-scrolling: touch;*/
   -ms-overflow-style: none;
 }
@@ -225,6 +226,8 @@ label {
 
 #canoe-page {
   padding: 0 20%;
+  height: auto;
+  overflow: hidden;
 }
 
 #search-bar {
@@ -258,6 +261,31 @@ label {
   text-align: center;
   overflow: hidden;
   min-width: 400px;
+}
+
+.image-credit {
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  bottom: 55px;
+}
+
+.image-credit2 {
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  bottom: -200px;
+}
+
+.image-credit3 {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 55px;
+  right: 100px;
 }
 
 .no-margin { margin: 0; padding: 0;}

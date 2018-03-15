@@ -39,16 +39,17 @@
         <?php
           // TODO cycle through fileds and output dataneed to cycle through all fields
           foreach ($records as $entry) {
-            echo "<label>Canoe Name:</label><span> " . $entry["name"] . "</span><br>";
-            echo "<label>Year:</label><span> " . $entry["year"] . "</span><br>";
-            echo "<label>Team Lead:</label><span> " . $entry["team_lead"] . "</span><br>";
-            echo "<label>Compressive Strength:</label><span> " . $entry["compressive_strength"] . "</span><br>";
-            echo "<label>Tensile Strength:</label><span> " . $entry["tensile_strength"] . "</span><br>";
-            echo "<label>Weight:</label><span> " . $entry["weight"] . "</span><br>";
-            echo "<label>Place:</label><span> " . $entry["place"] . "</span><br><br><br>";
+            echo "<label>Canoe Name:</label><span> " . htmlspecialchars($entry["name"]) . "</span><br>";
+            echo "<label>Year:</label><span> " . htmlspecialchars($entry["year"]) . "</span><br>";
+            echo "<label>Team Lead:</label><span> " . htmlspecialchars($entry["team_lead"]) . "</span><br>";
+            echo "<label>Compressive Strength:</label><span> " . htmlspecialchars($entry["compressive_strength"]) . "</span><br>";
+            echo "<label>Tensile Strength:</label><span> " . htmlspecialchars($entry["tensile_strength"]) . "</span><br>";
+            echo "<label>Weight:</label><span> " . htmlspecialchars($entry["weight"]) . "</span><br>";
+            echo "<label>Place:</label><span> " . htmlspecialchars($entry["place"]) . "</span><br><br><br>";
           }
         ?>
       </div>
+
     </div>
       <?php include("includes/footer.php"); ?>
   </body>

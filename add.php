@@ -174,6 +174,7 @@ if (isset($_POST["submit_insert"])) {
       </form>
     </div>
   </div>
+  <span class="image-credit2">fotos.websitesvoortherapeuten.com</span>
 
   <?php include("includes/footer.php"); ?>
 </body>
